@@ -10,5 +10,6 @@ Using the classes
 Credits
 -------
 Credits remain where credits belong:
+
 * Uli Kusterer for UKLog
 * Matt Gallagher for MGOneLineFetch
