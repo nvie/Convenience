@@ -3,8 +3,8 @@ Using the classes
 1. Include all of the classes into your Xcode project.
 2. Ideally, in your *ProjectName*_Prefix.pch pre-compiled header file, include
    the following line:  
-     
-	\#import Convenience.h
+   
+   > #import Convenience.h
 
 3. All of the convenience classes, #define's, and category extensions are now
    available to you.
