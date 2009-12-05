@@ -10,9 +10,6 @@
 //    http://github.com/nvie/Convenience
 //
 
-#import "ConvenienceDefines.h"
-#ifdef CONVENIENCE_INCLUDE_UIKIT_EXTENSIONS
-
 #import "UIImage+Resizing.h"
 
 @implementation UIImage (INResizeImageAllocator)
@@ -71,5 +68,3 @@
 
 
 @end
-
-#endif

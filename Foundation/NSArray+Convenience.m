@@ -10,9 +10,6 @@
 //    http://github.com/nvie/Convenience
 //
 
-#import "ConvenienceDefines.h"
-#ifdef CONVENIENCE_INCLUDE_FOUNDATION_EXTENSIONS
-
 #import "NSArray+Convenience.h"
 
 @implementation NSArray (Convenience)
@@ -22,5 +19,3 @@
 }
 
 @end
-
-#endif

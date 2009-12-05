@@ -10,9 +10,6 @@
 //    http://github.com/nvie/Convenience
 //
 
-#import "ConvenienceDefines.h"
-#ifdef CONVENIENCE_INCLUDE_FOUNDATION_EXTENSIONS
-
 #import "NSDictionary+Convenience.h"
 
 @implementation NSDictionary (Convenience)
@@ -30,5 +27,3 @@
 }
 
 @end
-
-#endif

@@ -1,5 +1,4 @@
-#import "ConvenienceDefines.h"
-#ifdef CONVENIENCE_INCLUDE_COREDATA_EXTENSIONS
+#import <CoreData/CoreData.h>
 
 @interface NSManagedObjectContext (MGOneLineFetch)
 
@@ -7,5 +6,3 @@
 						 withPredicate:(id)stringOrPredicate, ...;
 
 @end
-
-#endif

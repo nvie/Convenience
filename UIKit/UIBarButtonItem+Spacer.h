@@ -10,9 +10,6 @@
 //    http://github.com/nvie/Convenience
 //
 
-#import "ConvenienceDefines.h"
-#ifdef CONVENIENCE_INCLUDE_UIKIT_EXTENSIONS
-
 #import <UIKit/UIKit.h>
 
 @interface UIBarButtonItem (VDSpacer)
@@ -20,5 +17,3 @@
 + (id)spacerBarButtonItem;
 
 @end
-
-#endif

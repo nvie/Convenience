@@ -11,14 +11,14 @@
 //
 
 // Foundation extensions
-#import "UKLog.h"
-#import "NSArray+Convenience.h"
-#import "NSDictionary+Convenience.h"
+#import "Foundation/UKLog.h"
+#import "Foundation/NSArray+Convenience.h"
+#import "Foundation/NSDictionary+Convenience.h"
 
 // Core Data extensions
-#import "MGOneLineFetch.h"
+#import "CoreData/MGOneLineFetch.h"
 
 // UIKit extensions
-#import "UIKit+Dimensions.h"
-#import "UIImage+Resizing.h"
-#import "UIBarButtonItem+Spacer.h"
+#import "UIKit/UIKit+Dimensions.h"
+#import "UIKit/UIImage+Resizing.h"
+#import "UIKit/UIBarButtonItem+Spacer.h"

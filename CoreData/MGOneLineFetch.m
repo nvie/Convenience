@@ -1,6 +1,3 @@
-#import "ConvenienceDefines.h"
-#ifdef CONVENIENCE_INCLUDE_COREDATA_EXTENSIONS
-
 #import "MGOneLineFetch.h"
 
 @implementation NSManagedObjectContext (MGOneLineFetch)
@@ -51,5 +48,3 @@
 }
 
 @end
-
-#endif
