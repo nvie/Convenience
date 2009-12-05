@@ -10,6 +10,9 @@
 //    http://github.com/nvie/Convenience
 //
 
+#import "ConvenienceDefines.h"
+#ifdef CONVENIENCE_INCLUDE_UIKIT_EXTENSIONS
+
 // Screens
 #define kStdScreenWidth					320.0
 #define kStdScreenHeight				480.0
@@ -22,3 +25,5 @@
 // Buttons
 #define kStdButtonWidth					106.0
 #define kStdButtonHeight				40.0
+
+#endif

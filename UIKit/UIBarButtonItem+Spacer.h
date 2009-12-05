@@ -10,13 +10,15 @@
 //    http://github.com/nvie/Convenience
 //
 
-#import "NSArray+Convenience.h"
+#import "ConvenienceDefines.h"
+#ifdef CONVENIENCE_INCLUDE_UIKIT_EXTENSIONS
 
+#import <UIKit/UIKit.h>
 
-@implementation NSArray (Convenience)
+@interface UIBarButtonItem (VDSpacer)
 
-- (id)firstObject {
-	return ([self count] > 0) ? [self objectAtIndex:0] : nil;
-}
++ (id)spacerBarButtonItem;
 
 @end
+
+#endif

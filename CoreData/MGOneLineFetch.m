@@ -1,3 +1,6 @@
+#import "ConvenienceDefines.h"
+#ifdef CONVENIENCE_INCLUDE_COREDATA_EXTENSIONS
+
 #import "MGOneLineFetch.h"
 
 @implementation NSManagedObjectContext (MGOneLineFetch)
@@ -40,7 +43,7 @@
     NSArray *results = [self executeFetchRequest:request error:&error];
     if (error != nil)
     {
-        [NSException raise:NSGenericException format:[error description]];
+        [NSException raise:NSGenericException format:[error description], nil];
     }
     
     //return [NSSet setWithArray:results];
@@ -48,3 +51,5 @@
 }
 
 @end
+
+#endif

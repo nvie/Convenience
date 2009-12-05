@@ -10,8 +10,10 @@
 //    http://github.com/nvie/Convenience
 //
 
-#import <Foundation/Foundation.h>
+#import "ConvenienceDefines.h"
+#ifdef CONVENIENCE_INCLUDE_UIKIT_EXTENSIONS
 
+#import <UIKit/UIKit.h>
 
 @interface UIImage (INResizeImageAllocator)
 
@@ -21,3 +23,5 @@
 - (UIImage*)aspectFillImageToSize:(CGSize)newSize;
 
 @end
+
+#endif

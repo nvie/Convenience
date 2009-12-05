@@ -10,18 +10,17 @@
 //    http://github.com/nvie/Convenience
 //
 
-#import "UKLog.h"
+#import <Availability.h>
 
+// Foundation extensions
+#import "UKLog.h"
 #import "NSArray+Convenience.h"
 #import "NSDictionary+Convenience.h"
+
+// Core Data extensions
 #import "MGOneLineFetch.h"
 
-//
 // UIKit extensions
-// 
-// Test whether we're linked to UIKit. If so, include the UIKit classes.
-#ifdef UIKIT_EXTERN
 #import "UIKit+Dimensions.h"
 #import "UIImage+Resizing.h"
 #import "UIBarButtonItem+Spacer.h"
-#endif

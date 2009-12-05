@@ -10,8 +10,15 @@
 //    http://github.com/nvie/Convenience
 //
 
+#import "ConvenienceDefines.h"
+#ifdef CONVENIENCE_INCLUDE_FOUNDATION_EXTENSIONS
+
+#import <Foundation/Foundation.h>
+
 @interface NSArray (Convenience)
 
 - (id)firstObject;
 
 @end
+
+#endif
