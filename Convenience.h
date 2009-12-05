@@ -10,8 +10,6 @@
 //    http://github.com/nvie/Convenience
 //
 
-#import <Availability.h>
-
 // Foundation extensions
 #import "UKLog.h"
 #import "NSArray+Convenience.h"
