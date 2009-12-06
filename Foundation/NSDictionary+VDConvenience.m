@@ -10,9 +10,9 @@
 //    http://github.com/nvie/Convenience
 //
 
-#import "NSDictionary+Convenience.h"
+#import "NSDictionary+VDConvenience.h"
 
-@implementation NSDictionary (Convenience)
+@implementation NSDictionary (VDConvenience)
 
 + (id)dictionaryWithData:(NSData *)data {
 	return [[[NSDictionary alloc] initWithData:data] autorelease];

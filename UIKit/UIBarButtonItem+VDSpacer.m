@@ -10,7 +10,7 @@
 //    http://github.com/nvie/Convenience
 //
 
-#import "UIBarButtonItem+Spacer.h"
+#import "UIBarButtonItem+VDSpacer.h"
 
 @implementation UIBarButtonItem (VDSpacer)
 

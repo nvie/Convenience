@@ -37,6 +37,10 @@ UIKit
   - `UIKit+Dimensions.h` provides several static definitions on default heights
     and sizes of iPhone screens and/or controls.
 
+* `UIAlertView` class extensions:
+  - `+alertWithTitle:message:`  
+	Simply show a simple alert view with a title, a message and an OK button.
+
 * `UIBarButtonItem` class extensions:
   - `+spacerBarButtonItem`  
     Creates a new autoreleased UIBarButtonItem that is a flexible spacer item.

@@ -1,4 +1,4 @@
-#import "MGOneLineFetch.h"
+#import "NSManagedObjectContext+MGOneLineFetch.h"
 
 @implementation NSManagedObjectContext (MGOneLineFetch)
 

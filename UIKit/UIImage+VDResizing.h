@@ -12,7 +12,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (INResizeImageAllocator)
+@interface UIImage (VDResizing)
 
 + (UIImage*)imageWithImage:(UIImage*)image scaledToSize:(CGSize)newSize;
 + (UIImage*)imageWithImage:(UIImage*)image aspectFillToSize:(CGSize)newSize;
