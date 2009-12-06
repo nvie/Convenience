@@ -24,6 +24,13 @@ Foundation extensions
     Initialize an NSDictionary with a given NSData object, but without the need
     for reading the data from a file or URL.
 
+* `NSData` class extensions:
+  - `+dataFromBase64String:`  
+    Create a new autoreleased NSData object from a Base64 encoded NSString.
+  - `-base64EncodedString`  
+	Get a new autoreleased NSString instance containing the Base64 string
+	representing the data.
+  
 Core Data extensions
 ====================
 * `NSManagedObjectContext` class extensions:
@@ -59,3 +66,5 @@ Credits remain where credits belong:
   ([source](http://zathras.de/angelweb/blog-uk-helper-macros.htm))
 * Matt Gallagher for `MGOneLineFetch`
   ([source](http://cocoawithlove.com/2008/03/core-data-one-line-fetch.html))
+* Matt Gallagher for `NSData+Base64`
+  ([source](http://cocoawithlove.com/2009/06/base64-encoding-options-on-mac-and.html))

@@ -14,6 +14,7 @@
 #import "Foundation/UKLog.h"
 #import "Foundation/NSArray+VDConvenience.h"
 #import "Foundation/NSDictionary+VDConvenience.h"
+#import "Foundation/NSData+Base64.h"
 
 // Core Data extensions
 #import "CoreData/NSManagedObjectContext+MGOneLineFetch.h"
