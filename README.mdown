@@ -51,5 +51,7 @@ Credits
 -------
 Credits remain where credits belong:
 
-* Uli Kusterer for UKLog
-* Matt Gallagher for MGOneLineFetch
+* Uli Kusterer for `UKLog`
+  ([source](http://zathras.de/angelweb/blog-uk-helper-macros.htm))
+* Matt Gallagher for `MGOneLineFetch` (source)
+  ([source](http://cocoawithlove.com/2008/03/core-data-one-line-fetch.html))
