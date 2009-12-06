@@ -18,6 +18,7 @@
 
 // Core Data extensions
 #import "CoreData/NSManagedObjectContext+MGOneLineFetch.h"
+#import "CoreData/NSManagedObjectContext+MGSafeFetchObjectFromURI.h"
 
 // UIKit extensions
 #import "UIKit/UIKit+VDDimensions.h"

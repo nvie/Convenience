@@ -37,6 +37,8 @@ Core Data extensions
   - `-fetchObjectsForEntityName:withPredicate:`  
     Single method implementation for performing simple fetches of Core Data
     entities using a simple query.
+  - `-objectWithURI:`
+    Safely fetch an object from a managed object context by its URI.
 
 UIKit
 =====
@@ -64,7 +66,9 @@ Credits remain where credits belong:
 
 * Uli Kusterer for `UKLog`
   ([source](http://zathras.de/angelweb/blog-uk-helper-macros.htm))
-* Matt Gallagher for `MGOneLineFetch`
-  ([source](http://cocoawithlove.com/2008/03/core-data-one-line-fetch.html))
 * Matt Gallagher for `NSData+Base64`
   ([source](http://cocoawithlove.com/2009/06/base64-encoding-options-on-mac-and.html))
+* Matt Gallagher for `NSManagedObjectContext+MGOneLineFetch`
+  ([source](http://cocoawithlove.com/2008/03/core-data-one-line-fetch.html))
+* Matt Gallagher for `NSManagedObjectContext+MGSafeFetchedObjectFromURI`
+  ([source](http://cocoawithlove.com/2008/08/safely-fetching-nsmanagedobject-by-uri.html))
