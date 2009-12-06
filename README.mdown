@@ -7,6 +7,46 @@ Using the classes
 3. All of the convenience classes, #define's, and category extensions are now
    available to you.
 
+Foundation extensions
+=====================
+* General extensions:
+  - `UKLog()`:  
+    NSLog logging only when `DEBUG` compiler directive is defined, and with nice
+    method names.
+  
+* `NSArray` extensions:
+  - `-firstObj`  
+    Returns the first object in the array, to complement the already existing
+    `-lastObject`
+  
+* `NSDictionary` extensions:
+  - `-initWithData:` and `+dictionaryWithData:` initializers  
+    Initialize an NSDictionary with a given NSData object, but without the need
+    for reading the data from a file or URL.
+
+Core Data extensions
+====================
+* `NSManagedObjectContext` extensions:
+  - `-fetchObjectsForEntityName:withPredicate:`  
+    Single method implementation for performing simple fetches of Core Data
+    entities using a simple query.
+
+UIKit
+=====
+* General extensions
+  - `UIKit+Dimensions.h` provides several static definitions on default heights
+    and sizes of iPhone screens and/or controls.
+
+* `UIBarButtonItem` extensions:
+  - `+spacerBarButtonItem`  
+    Creates a new autoreleased UIBarButtonItem that is a flexible spacer item.
+
+* `UIImage` extensions:
+  - `-scaleImageToSize:` and `+imageWithImage:scaledToSize:`  
+    Scaling images down to a given size. Allows for non-proportional scaling.
+  - `-aspectFillImageToSize:` and `+imageWithImage:aspectFillToSize:`  
+    Scaling images down by aspect-filling to a given size.
+
 Credits
 -------
 Credits remain where credits belong:
