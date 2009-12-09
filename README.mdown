@@ -28,18 +28,31 @@ Foundation extensions
     Initialize an NSDictionary with a given NSData object, but without the need
     for reading the data from a file or URL.
 
+* `NSData` class extensions:
+  - `+dataFromBase64String:`  
+    Create a new autoreleased NSData object from a Base64 encoded NSString.
+  - `-base64EncodedString`  
+	Get a new autoreleased NSString instance containing the Base64 string
+	representing the data.
+  
 Core Data extensions
 ====================
 * `NSManagedObjectContext` class extensions:
   - `-fetchObjectsForEntityName:withPredicate:`  
     Single method implementation for performing simple fetches of Core Data
     entities using a simple query.
+  - `-objectWithURI:`
+    Safely fetch an object from a managed object context by its URI.
 
 UIKit
 =====
 * General
   - `UIKit+Dimensions.h` provides several static definitions on default heights
     and sizes of iPhone screens and/or controls.
+
+* `UIAlertView` class extensions:
+  - `+alertWithTitle:message:`  
+	Simply show a simple alert view with a title, a message and an OK button.
 
 * `UIBarButtonItem` class extensions:
   - `+spacerBarButtonItem`  
@@ -57,5 +70,9 @@ Credits remain where credits belong:
 
 * Uli Kusterer for `UKLog`
   ([source](http://zathras.de/angelweb/blog-uk-helper-macros.htm))
-* Matt Gallagher for `MGOneLineFetch`
+* Matt Gallagher for `NSData+Base64`
+  ([source](http://cocoawithlove.com/2009/06/base64-encoding-options-on-mac-and.html))
+* Matt Gallagher for `NSManagedObjectContext+MGOneLineFetch`
   ([source](http://cocoawithlove.com/2008/03/core-data-one-line-fetch.html))
+* Matt Gallagher for `NSManagedObjectContext+MGSafeFetchedObjectFromURI`
+  ([source](http://cocoawithlove.com/2008/08/safely-fetching-nsmanagedobject-by-uri.html))

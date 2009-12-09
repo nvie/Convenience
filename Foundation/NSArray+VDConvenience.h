@@ -12,7 +12,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSArray (Convenience)
+@interface NSArray (VDConvenience)
 
 - (id)firstObject;
 

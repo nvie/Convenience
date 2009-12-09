@@ -10,9 +10,9 @@
 //    http://github.com/nvie/Convenience
 //
 
-#import "NSArray+Convenience.h"
+#import "NSArray+VDConvenience.h"
 
-@implementation NSArray (Convenience)
+@implementation NSArray (VDConvenience)
 
 - (id)firstObject {
 	return ([self count] > 0) ? [self objectAtIndex:0] : nil;

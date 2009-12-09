@@ -13,13 +13,16 @@
 // Foundation extensions
 #import "Foundation/UKLog.h"
 #import "Foundation/NSObject+Convenience.h"
-#import "Foundation/NSArray+Convenience.h"
-#import "Foundation/NSDictionary+Convenience.h"
+#import "Foundation/NSArray+VDConvenience.h"
+#import "Foundation/NSDictionary+VDConvenience.h"
+#import "Foundation/NSData+Base64.h"
 
 // Core Data extensions
-#import "CoreData/MGOneLineFetch.h"
+#import "CoreData/NSManagedObjectContext+MGOneLineFetch.h"
+#import "CoreData/NSManagedObjectContext+MGSafeFetchObjectFromURI.h"
 
 // UIKit extensions
-#import "UIKit/UIKit+Dimensions.h"
-#import "UIKit/UIImage+Resizing.h"
-#import "UIKit/UIBarButtonItem+Spacer.h"
+#import "UIKit/UIKit+VDDimensions.h"
+#import "UIKit/UIImage+VDResizing.h"
+#import "UIKit/UIBarButtonItem+VDSpacer.h"
+#import "UIKit/UIAlertView+VDConvenience.h"

@@ -10,7 +10,7 @@
 //    http://github.com/nvie/Convenience
 //
 
-#import "UIImage+Resizing.h"
+#import "UIImage+VDResizing.h"
 
 @implementation UIImage (INResizeImageAllocator)
 

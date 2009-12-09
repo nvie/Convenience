@@ -12,7 +12,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDictionary (Convenience)
+@interface NSDictionary (VDConvenience)
 
 + (id)dictionaryWithData:(NSData *)data;
 - (id)initWithData:(NSData *)data;
