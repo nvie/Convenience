@@ -14,6 +14,10 @@ Foundation extensions
     NSLog logging only when `DEBUG` compiler directive is defined, and with nice
     method names.
   
+* `NSObject` class extensions:
+  - `-className`  
+    Returns the class name of the current object as an NSString.
+
 * `NSArray` class extensions:
   - `-firstObj`  
     Returns the first object in the array, to complement the already existing

@@ -12,6 +12,7 @@
 
 // Foundation extensions
 #import "Foundation/UKLog.h"
+#import "Foundation/NSObject+Convenience.h"
 #import "Foundation/NSArray+VDConvenience.h"
 #import "Foundation/NSDictionary+VDConvenience.h"
 #import "Foundation/NSData+Base64.h"
