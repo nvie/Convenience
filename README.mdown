@@ -46,6 +46,11 @@ UIKit
   - `UIKit+Dimensions.h` provides several static definitions on default heights
     and sizes of iPhone screens and/or controls.
 
+* `UIView` class extensions:
+  - `-allDescendingSubviews`  
+	Returns an NSArray containing all subviews (recursively) of the current
+	view.
+
 * `UIAlertView` class extensions:
   - `+alertWithTitle:message:`  
 	Simply show a simple alert view with a title, a message and an OK button.

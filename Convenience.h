@@ -21,6 +21,7 @@
 #import "CoreData/NSManagedObjectContext+MGSafeFetchObjectFromURI.h"
 
 // UIKit extensions
+#import "UIKit/UIView+SubviewBrowsing.h"
 #import "UIKit/UIKit+VDDimensions.h"
 #import "UIKit/UIImage+VDResizing.h"
 #import "UIKit/UIBarButtonItem+VDSpacer.h"
