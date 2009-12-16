@@ -19,7 +19,7 @@ Foundation extensions
     Returns the class name of the current object as an NSString.
 
 * `NSArray` class extensions:
-  - `-firstObj`  
+  - `-firstObject`  
     Returns the first object in the array, to complement the already existing
     `-lastObject`
   
